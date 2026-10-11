@@ -1,0 +1,35 @@
+{
+ "A": {
+  "card": {
+   "thumb": "img/retro.jpg",
+   "title": "Display of Ranma, Shampoo, a silver-armoured knight and Sailor Moon figures",
+   "lic": "own photo"
+  },
+  "detail": [],
+  "food": []
+ },
+ "B": {
+  "card": {
+   "thumb": "img/gundam.jpg",
+   "title": "Wing Gundam Zero model with white feathered wings in a glass display case",
+   "lic": "own photo"
+  },
+  "detail": [
+   {
+    "thumb": "img/extra-4.jpg",
+    "title": "Life-size RX-78-2 Gundam statue beside a red carpet in a Gundam kit shop, glass cases of kits behind",
+    "lic": "own photo"
+   }
+  ],
+  "food": []
+ },
+ "C": {
+  "card": {
+   "thumb": "img/pokemon.jpg",
+   "title": "A hand holding a Pikachu ex trading card",
+   "lic": "own photo"
+  },
+  "detail": [],
+  "food": []
+ }
+}
