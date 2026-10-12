@@ -228,7 +228,7 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 <div class="arrival">
 <div><p>{html.escape(PAGE['meet_text'])}</p>
 <p class="hint">{html.escape(PAGE['meet_hint'])}</p></div>
-<div class="mapbox"><iframe src="{emb(PAGE['meet_place'])}" loading="lazy" title="{html.escape(PAGE['meet_place'])}" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<div class="mapbox"><iframe src="https://maps.google.com/maps?q=35.6987835,139.772352&output=embed&z=17" loading="lazy" title="{html.escape(PAGE['meet_place'])}" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 </div>
 </div>
 <footer class="wrap">{('<p>'+html.escape(PAGE['note'])+'</p>') if PAGE.get('note') else ''}<p>{html.escape(PAGE['footer'])} <button class="pdfbtn" type="button" onclick="window.print()">Save as PDF</button></p>
